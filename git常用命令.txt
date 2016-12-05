@@ -1,0 +1,4 @@
+git add .			//添加所有的文件到缓冲区
+git commit -m "注释"		//告诉Git，把文件提交到仓库
+git push origin master 		//将文件缓冲区的文件提交到GitHub下的master分支
+git pull all 			//将gitHub上的文件拉取下来
