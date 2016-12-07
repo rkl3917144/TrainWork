@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>文件上传</title>
+    </head>
+    <body>
+        <table align="center" border="1">
+            <form action="filesUpload.php" method="post" target="_blank" enctype="multipart/form-data">
+                <tr align="center">
+                    <th colspan="2">多个文件上传</th>
+                </tr>
+                
+                <tr>
+                    <td colspan="2"><input type="file" name="files[]"></td>
+                </tr>
+                
+                <tr>
+                    <td colspan="2"><input type="file" name="files[]"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"><input type="file" name="files[]"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"><input type="file" name="files[]"></td>
+                </tr>
+
+                <tr align="center">
+                    <td><input type="submit"></td>
+                    <td><input type="reset"></td>
+                </tr>
+            </form>
+        </table>
+    </body>
+</html>
