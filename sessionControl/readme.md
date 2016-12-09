@@ -5,12 +5,16 @@
 
 *cookieClass*有下面三个方法
 > `addCookie()`设置cookie
+
 > `getcookie()`得到cookie信息
+
 > `cleacookie()`清除cookie信息
 
 *sessionClass*有下面三个方法
 > `startSession()`开启session
+
 > `getSession()`得到session信息
+
 > `cleaSession()`清除session信息
 
 ------
