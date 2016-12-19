@@ -8,3 +8,5 @@ liuyan.html		文件里包含了表单，使用get上传数据，也可以使用post。建议使用post，
 liuyan.php		文件包含了对表单数据的处理
 
 liuyan.txt		这个txt文件包含了浏览的内容
+
+readLiuyan.php	这个文件读取了文件内的留言
