@@ -9,4 +9,5 @@ fileUpload.php			是对上传的“单”文件进行处理的 ‘脚本’
 filesUpload.html		是“多”文件上传的 ‘表单文件’
 filesUpload.php			是对上传的“多”文件进行处理的 ‘脚本’
 
+fileUploadClass 封装了一个文件上传类
 

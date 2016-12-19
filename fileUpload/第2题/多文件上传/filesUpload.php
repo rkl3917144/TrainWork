@@ -11,7 +11,7 @@
 //获取所有上传文件的扩展名
 foreach($_FILES["files"]["name"] as $v){
     $filename = explode("." ,$v);
-    $kzs[] = $filename[count($filename)-1];
+    $randNames[] = $filename[count($filename)-1];
 }
 
 
@@ -28,7 +28,7 @@ foreach($_FILES["files"]["tmp_name"] as $values){
 
 //产生随机名
 for($i = 0;$i<count($_FILES["files"]["name"]);$i++){
-    $randNames[] = date('Y').date('m').date('d').date('H').date('i').date('s').rand(100,999).".".$kzs[$i];
+    $randNames[] = date('YmdHis').rand(100,999).".".$extensions[$i];
 }
 
 
@@ -47,5 +47,4 @@ foreach($filesSrc as $v){
         echo "文件不存在"."<br/>";
     }
 }
-
 ?>

@@ -21,7 +21,7 @@ $toPath = './upload/';
 //获取缓存目录内的上传的文件路径
 $fileSrc = $_FILES['file']['tmp_name'];
 //产生随机名
-$randName = date('Y').date('m').date('d').date('H').date('i').date('s').'.'.$kz;
+$randName = date('YmdHis').'.'.$extension;
 
 //从缓冲区重命名和拷贝上传的文件
 if (is_uploaded_file($fileSrc)) {        //判断上传的文件是否存在
