@@ -36,6 +36,7 @@ class mysqliClass
 		return $this->mysqli;
     }
 
+	
 	//连接数据库
 	private function connect(){
 		$this->mysqli = mysqli_connect("$this->dbHostname:$this->dbPort",$this->dbUsername,$this->dbPassword);

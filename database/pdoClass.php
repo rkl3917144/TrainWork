@@ -23,6 +23,7 @@ class pdoClass
     }
 
 
+	
     //返回一个statement对象
     public function prepare($sql)
     {

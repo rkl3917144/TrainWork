@@ -130,4 +130,5 @@ class mysqlClass{
 	public function close(){
 		mysql_close($this->mysql);
 	}
+	
 }

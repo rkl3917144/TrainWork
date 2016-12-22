@@ -52,6 +52,7 @@ CREATE TABLE post (
     
 `部门表(post)`<font color="red">**结构**</font>如图
 
+
 | Field    | Type             | Null | Key | Default | Extra          |
 | :----    | :----            | :---:| :--:| :----:  | ----           |
 | postId   | int(10) unsigned | NO   | PRI | NULL    | auto_increment |
